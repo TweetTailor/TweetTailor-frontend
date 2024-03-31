@@ -1,22 +1,58 @@
 {
   "name": "ai-wallet",
+  "type": "module",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3007",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-tooltip": "^1.0.7",
+    "next": "14.2.0-canary.48",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.0-canary.48"
+    "vaul": "^0.9.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@antfu/eslint-config": "^2.11.4",
+    "@dnd-kit/core": "^6.1.0",
+    "@dnd-kit/sortable": "^8.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@iconify-json/cryptocurrency": "^1.1.9",
+    "@iconify-json/solar": "^1.1.9",
+    "@julr/unocss-preset-heropatterns": "^1.0.2",
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18"
+    "@types/react-dom": "^18",
+    "@unocss/postcss": "^0.58.8",
+    "ai": "^3.0.15",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "foxact": "^0.2.33",
+    "framer-motion": "^11.0.24",
+    "grommet": "^2.36.1",
+    "lucide-react": "^0.363.0",
+    "openai": "^4.30.0",
+    "postcss": "^8.4.38",
+    "react-charts": "3.0.0-beta.57",
+    "tailwind-merge": "^2.2.2",
+    "typescript": "^5",
+    "unocss": "^0.58.8",
+    "unocss-preset-animations": "^1.0.2",
+    "unocss-preset-scrollbar": "^0.3.1",
+    "unocss-preset-scrollbar-hide": "^1.0.1",
+    "unocss-preset-shadcn": "^0.2.3",
+    "uvcanvas": "^0.2.1",
+    "zod": "^3.22.4"
   }
 }
